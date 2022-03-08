@@ -10,3 +10,6 @@ Direct electrocortical stimulation (DECS) with electrocorticography electrodes i
 You can download a copy of all files in this repository by cloning the [git](https://github.com/ChantelC/ECOG_FEM.git) repository:
     
     git clone https://github.com/ChantelC/ECOG_FEM.git
+
+## Acknowledgements
+This work was supported by the National Science Foundation (NSF) Graduate Research Fellowship (1747505); a Joint US (NSF) German (DRG) Collaborative Research in Computational Neuroscience grant (IIS-1515168, 1515167, and 1514790); the National Institutes of Health “Center for Integrative Biomedical Computing” (P41 GM103545 and R24 GM136986); the NSF Engineering Research Center (EEC-1028725); the Big Data for Genomics and Neuroscience Training Grant (1T32CA206089); the UW Institute for Neuroengineering and the Washington Research Foundation Funds for Innovation in Neuroengineering; and the Weill Neurohub.
