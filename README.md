@@ -1,0 +1,12 @@
+# Validating Patient-Specific Finite Element Models of Direct Electrocortical Stimulation
+by Chantel M. Charlebois, David J. Caldwell, Sumientra M. Rampersad, Andrew P. Janson, Jeffrey G. Ojemann, Dana H. Brooks, Rob S. MacLeod, Christopher R. Butson, and Alan D. Dorval
+
+Paper available here: https://doi.org/10.3389/fnins.2021.691701
+
+## Abstract
+Direct electrocortical stimulation (DECS) with electrocorticography electrodes is an established therapy for epilepsy and an emerging application for stroke rehabilitation and brain-computer interfaces. However, the electrophysiological mechanisms that result in a therapeutic effect remain unclear. Patient-specific computational models are promising tools to predict the voltages in the brain and better understand the neural and clinical response to DECS, but the accuracy of such models has not been directly validated in humans. A key hurdle to modeling DECS is accurately locating the electrodes on the cortical surface due to brain shift after electrode implantation. Despite the inherent uncertainty introduced by brain shift, the effects of electrode localization parameters have not been investigated. The goal of this study was to validate patient- specific computational models of DECS against in vivo voltage recordings obtained during DECS and quantify the effects of electrode localization parameters on simulated voltages on the cortical surface. We measured intracranial voltages in six epilepsy patients during DECS and investigated the following electrode localization parameters: principal axis, Hermes, and Dykstra electrode projection methods combined with 0, 1, and 2 mm of cerebral spinal fluid (CSF) below the electrodes. Greater CSF depth between the electrode and cortical surface increased model errors and decreased predicted voltage accuracy. The electrode localization parameters that best estimated the recorded voltages across six patients with varying amounts of brain shift were the Hermes projection method and a CSF depth of 0 mm (r = 0.92 and linear regression slope = 1.21). These results are the first to quantify the effects of electrode localization parameters with in vivo intracranial recordings and may serve as the basis for future studies investigating the neuronal and clinical effects of DECS for epilepsy, stroke, and other emerging closed-loop applications.
+
+## Getting the code
+You can download a copy of all files in this repository by cloning the [git](https://github.com/ChantelC/ECOG_FEM.git) repository:
+    
+    git clone https://github.com/ChantelC/ECOG_FEM.git
